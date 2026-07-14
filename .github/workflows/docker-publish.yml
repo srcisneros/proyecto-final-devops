@@ -15,6 +15,17 @@ jobs:
 
     steps:
       - name: Descargar repositorio
+<<<<<<< HEAD
+        uses: actions/checkout@v4
+
+      - name: Configurar Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Iniciar sesión en Docker Hub
+        uses: docker/login-action@v3
+        with:
+          registry: docker.io
+=======
         uses: actions/checkout@v5
 
       - name: Configurar Docker Buildx
@@ -23,15 +34,24 @@ jobs:
       - name: Iniciar sesión en Docker Hub
         uses: docker/login-action@v4
         with:
+>>>>>>> main
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Construir y publicar imagen
+<<<<<<< HEAD
+        uses: docker/build-push-action@v6
+=======
         uses: docker/build-push-action@v7
+>>>>>>> main
         with:
           context: .
           file: ./Dockerfile
           push: true
+<<<<<<< HEAD
+          tags: ruper64/devops-final-project:v1
+=======
           tags: ruper64/proyecto-final-devops:v1
           cache-from: type=gha
           cache-to: type=gha,mode=max
+>>>>>>> main
