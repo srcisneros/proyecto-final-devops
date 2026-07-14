@@ -60,38 +60,7 @@ Implementar una aplicación web basada en FastAPI utilizando un flujo de trabajo
 
 ---
 
-# 🏗️ Arquitectura de la Solución
 
-```text
-┌─────────────┐
-│ Desarrollador │
-└──────┬──────┘
-       │ GitFlow
-       ▼
-┌─────────────┐
-│   GitHub    │
-└──────┬──────┘
-       │ Push
-       ▼
-┌────────────────────┐
-│ GitHub Actions CI  │
-└──────┬─────────────┘
-       │ Build Docker
-       ▼
-┌────────────────────┐
-│    Docker Hub      │
-└──────┬─────────────┘
-       │ Pull
-       ▼
-┌────────────────────┐
-│ Contenedor Docker  │
-└──────┬─────────────┘
-       │
-       ▼
-┌────────────────────┐
-│ Aplicación FastAPI │
-└────────────────────┘
-```
 
 ---
 
@@ -111,53 +80,7 @@ Implementar una aplicación web basada en FastAPI utilizando un flujo de trabajo
 
 ---
 
-# 📂 Estructura del Proyecto
 
-```text
-proyecto-final-devops
-│
-├── app
-│   ├── main.py
-│   │
-│   └── templates
-│       └── index.html
-│
-├── requirements.txt
-├── Dockerfile
-├── docker-compose.yml
-├── .dockerignore
-├── README.md
-└── INFORME.md
-```
-
----
-
-# 🌿 Flujo GitFlow Aplicado
-
-El proyecto fue desarrollado siguiendo la metodología **GitFlow**.
-
-```text
-main
- │
- ├── develop
- │
- ├── feature/app-fastapi
- ├── feature/dockerfile
- ├── feature/github-actions
- │
- └── release/v1.0.0
-```
-
-## Ramas principales
-
-| Rama | Propósito |
-|--------|-----------|
-| main | Código estable en producción |
-| develop | Integración de funcionalidades |
-| feature/* | Desarrollo de nuevas características |
-| release/* | Preparación de versiones |
-
----
 
 
 ---
