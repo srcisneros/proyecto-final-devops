@@ -33,4 +33,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: srcisneros/devops-final-project:v1
+          tags: ruper64/devops-final-project:v1
