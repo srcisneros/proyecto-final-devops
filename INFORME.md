@@ -670,13 +670,14 @@ Resultado:
 
 ### Figura 1. Página de inicio del contenedor
 
-![Figura 1. Página de inicio del contenedor](<img width="1187" height="663" alt="inicio" src="https://github.com/user-attachments/assets/0555e99f-7301-4cd8-9c12-555ed6dc754b" />
-)
+
+### Figura 1. Página de inicio del contenedor
+
+![Figura 1. Página de inicio del contenedor](https://github.com/user-attachments/assets/0555e99f-7301-4cd8-9c12-555ed6dc754b)
 
 ### Figura 2. Validación de imagen publicada en Docker Hub
 
-![Figura 2. Imagen publicada en Docker Hub](<img width="1212" height="742" alt="dockerhub" src="https://github.com/user-attachments/assets/65679f6d-3176-4804-b958-65e4e3f47f6f" />
-)
+![Figura 2. Imagen publicada en Docker Hub](https://github.com/user-attachments/assets/65679f6d-3176-4804-b958-65e4e3f47f6f)
 
 ---
 
