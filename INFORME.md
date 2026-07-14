@@ -30,7 +30,7 @@
 | 🟪 **Proyecto** | `proyecto-final-devops` |
 | 🐳 **Imagen Docker** | `srcisneros/devops-final-project:v1` |
 | 🔵 **Repositorio GitHub** | https://github.com/srcisneros/proyecto-final-devops |
-| 🔷 **Repositorio Docker Hub** | https://hub.docker.com/r/srcisneros/devops-final-project |
+| 🔷 **Repositorio Docker Hub** | https://hub.docker.com/r/ruper64/proyecto-final-devops/tags |
 
 ---
 
