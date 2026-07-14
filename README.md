@@ -97,7 +97,6 @@ Implementar una aplicación web basada en FastAPI utilizando un flujo de trabajo
 
 # 👨‍💻 Autoría
 
-**Curso de Profesionalización en DevOps**
 
 **Proyecto Final DevOps**
 
