@@ -28,7 +28,7 @@
 | 🟪 **Proyecto** | `proyecto-final-devops` |
 | 🐳 **Imagen Docker** | `ruper64/devops-final-project:v1` |
 | 🔵 **Repositorio GitHub** | https://github.com/srcisneros/proyecto-final-devops |
-| 🔷 **Repositorio Docker Hub** | https://hub.docker.com/r/ruper64/proyecto-final-devops |
+| 🔷 **Repositorio Docker Hub** | https://hub.docker.com/r/ruper64/proyecto-final-devops/tags |
 
 ---
 
